@@ -1,0 +1,539 @@
+/* Common css */
+body {
+  background-color: #0c0c0c;
+  font-family: poppins;
+  overflow-x: hidden;
+}
+.app{
+  overflow: auto;
+}
+a {
+  text-decoration: none;
+}
+.white {
+  color: #fff;
+}
+.cur-point {
+  cursor: pointer;
+}
+/*  */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+.navbar .logo {
+  flex: 1;
+}
+
+.nav-elements-div {
+  display: flex;
+  flex: 2;
+  justify-content: space-around;
+}
+
+.nav-elements-div div:nth-child(1) a {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
+}
+
+.nav-elements-div a:hover {
+  color: #b45ff9;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
+}
+
+.navbar-end-div {
+  flex: 1;
+}
+
+.toggle-div {
+  display: none;
+}
+
+.nav-btns-div {
+  float: right;
+}
+
+.nav-btns-div button {
+  padding: 6px 18px;
+  background-color: #fff;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-btns-div button:hover {
+  background-color: #b45ff9;
+  color: #fff;
+}
+
+.nav-menu-icon {
+  font-size: 30px !important;
+  color: #fff !important;
+}
+
+.nav-menu-icon:hover {
+  color: #b45ff9 !important;
+}
+
+.navbar {
+  max-height: 25px;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.navbar-trans {
+  max-height: 350px;
+}
+
+/*  */
+.hero-sec-main {
+  padding: 80px 0;
+  row-gap: 70px;
+}
+
+.hero-ui img {
+  height: 50px;
+}
+
+.hero-sec-main h5 {
+  padding: 0;
+  margin: 0;
+  letter-spacing: 4px;
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.hero-sec-beg {
+  position: relative;
+  top: 10px;
+  left: 0;
+  margin-top: 150px;
+  max-width: 100px;
+  transform: rotate(-90deg);
+  margin-left: -40px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.square-box {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+}
+
+.pro-design-span {
+  gap: 15px;
+}
+
+.guide-img-div img {
+  height: 480px;
+  width: 280px;
+}
+
+.hero-conent {
+  flex: 0.9;
+}
+
+.hero-conent h5 {
+  max-width: 300px;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 25px;
+}
+
+.hero-conent p {
+  max-width: 300px;
+  font-size: 14px;
+}
+
+.purple {
+  color: #b45ff9;
+}
+
+.bg-purple {
+  background-color: #b45ff9;
+}
+
+.letsStart-btn {
+  background-color: #b45ff9;
+  font-weight: 500;
+  letter-spacing: 0px;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 10px;
+}
+
+.letsStart-btn:hover {
+  background-color: #7b18cc;
+}
+
+.readMore-btn {
+  border: none;
+  background: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  outline: none !important;
+}
+
+.readMore-btn:hover {
+  color: #b45ff9;
+}
+
+.curosel-sec i {
+  position: absolute;
+  bottom: 60px;
+}
+
+.challanges-sec h3 {
+  font-size: 38px;
+  line-height: 50px;
+}
+
+.challanges-sec h4 {
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.challanges-sec-cont {
+  background-image: url("./assests/ring1.png");
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position: center;
+}
+
+/*  */
+.course-card-sec h1 {
+  font-size: 55px;
+}
+
+.course-card-sec .cousre {
+  font-size: 25px;
+  font-weight: 200;
+}
+
+/*  */
+.card-div-main {
+  background-color: transparent;
+}
+
+.card-body {
+  border: 2px solid #ffffff;
+}
+
+.cardNo {
+  background-color: #fff;
+  float: left;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.card-hr {
+  height: 2px;
+  width: 40px;
+  background-color: #b45ff9;
+}
+
+.card-body p {
+  font-size: 14px;
+  line-height: 2;
+}
+
+.aboutOval {
+  transform: translateX(-70%);
+}
+
+img.sitman-img {
+  height: 80%;
+}
+
+.aboutUs-main {
+  margin-top: -100px;
+}
+
+.aboutus_gap {
+  row-gap: 70px;
+}
+
+/*  */
+.WhyOval {
+  position: relative;
+  right: 0;
+  transform: translateX(150%);
+}
+
+.getStartedRotate {
+  transform: rotate(-90deg);
+  max-width: 200px;
+  margin-left: -82px;
+}
+
+.getStartedRotatedown {
+  transform: rotate(90deg);
+  position: absolute;
+  top: 110px;
+  right: -30px;
+}
+
+.thinkCards-body {
+  color: #acacac;
+}
+
+.thinkCards-body {
+  max-width: 310px;
+  text-align: justify;
+}
+
+.profile-img {
+  border: 2px solid #b45ff9;
+  height: 153px;
+  width: 153px;
+}
+
+.subscribe-imputs textarea,
+input {
+  padding: 10px 20px;
+  background: transparent;
+  border: 2px solid #674c8c;
+  outline: none;
+  color: #acacac;
+  max-height: 300px;
+}
+
+.subscribe-imputs span {
+  font-size: 25px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.subscribe-imputs p {
+  font-size: 13px;
+}
+
+.footer {
+  background-color: #966dcd;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.footer-icons {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.footer-input-div {
+  max-width: 400px;
+}
+
+.footer-input-div input {
+  border: 2px solid #fff;
+  color: #fff;
+  height: 35px;
+}
+
+.footer h5 {
+  display: inline-block;
+  border-bottom: 2px solid #d6cde1;
+  padding-bottom: 4px;
+  font-weight: 600;
+  cursor: default;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.footer p:hover {
+  color: #0c0c0c;
+}
+
+@media (max-width: 990px) {
+  .navbar-main {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+
+  .toggle-div {
+    display: block;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar {
+    padding: 0;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .nav-elements-div {
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .nav-btns-div {
+    float: left;
+  }
+
+  .hero-sec-1 {
+    flex-direction: column;
+    row-gap: 60px;
+  }
+
+  .hero-sec-beg {
+    margin-top: 0px;
+    transform: rotate(0);
+    margin-left: 0px;
+    max-width: 100%;
+  }
+
+  .hero-sec-main {
+    flex-direction: column;
+  }
+
+  .hero-sec-2 {
+    gap: 30px;
+    display: flex;
+  }
+
+  .guide-img-div img {
+    margin: 0 50px;
+    height: 400px;
+  }
+
+  /*  */
+  .challanges-sec h3 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .challanges-sec h4 {
+    font-weight: 300;
+    font-size: 20px;
+  }
+
+  .challanges-sec-cont {
+    background-image: url("./assests/ring1.png");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+  }
+
+  img.sitman-img {
+    height: 400px;
+  }
+
+  .aboutus_gap {
+    flex-direction: column-reverse;
+  }
+
+  .why-sec {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 767px) {
+  .rotate-get {
+    transform: rotate(90deg);
+  }
+
+  .sub-row {
+    justify-content: center;
+  }
+
+  .sub-img {
+    margin-bottom: 30px;
+  }
+
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+
+  .aboutUs-main {
+    margin-top: 60px;
+  }
+  .hero-sec-main {
+    padding: 40px 0;
+    row-gap: 70px;
+  }
+}
+
+@media (max-width: 540px) {
+  .count-sec {
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .count-sec h3 {
+    font-size: 35px;
+  }
+
+  .guide-img-div img {
+    margin: 0 20px;
+    width: 200px;
+    height: 300px;
+  }
+
+  .course-card-sec h1 {
+    font-size: 35px;
+  }
+
+  .course-card-sec .cousre {
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+  img.sitman-img {
+    height: 300px;
+  }
+}
+
